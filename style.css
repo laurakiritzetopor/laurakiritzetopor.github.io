@@ -19,7 +19,6 @@ p {
 nav {
   margin: 40px 0 0 0;
   position: fixed;
-  height: 200px;
   display: block;
   z-index: 9999
 }
