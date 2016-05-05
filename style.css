@@ -36,7 +36,7 @@ main {
 }
 
 #navigation {
-  margin: 0 0 0 310px;
+  margin: 0 0 0 289px;
   display: inline-block;
 }
 
@@ -51,7 +51,7 @@ nav a {
   font-weight: 400;
   margin-left: 40px;
   font-family: "futura-pt", Arial, sans-serif;
-  font-size: 24px;
+  font-size: 30px;
   letter-spacing: -1px;
 }
 
@@ -69,11 +69,11 @@ nav a.selected{
 }
 
 .parabeaute img {
-  max-width: 600px;
+  max-width: 480px;
   height: auto;
   display: inline-block;
   position: absolute;
-  margin-left: 348px;
+  margin-left: 495px;
 }
 
 .m1 img {
@@ -82,15 +82,15 @@ nav a.selected{
   display: inline-block;
   position: absolute;
   margin-left: 348px;
-  margin-top: 315px; 
+  margin-top: 365px; 
 }
 
 .pingpong img {
-  max-width: 358px;
+  max-width: 338px;
   height: auto;
   display: inline-block;
   position: absolute; 
-  margin-top: 315px; 
+  margin-top: 395px; 
   margin-left: 590px;
 }
 
@@ -99,8 +99,8 @@ nav a.selected{
   height: auto;
   display: inline-block;
   position: absolute;
-  margin-left: 590px;
-  margin-top: 559px;
+  margin-left: 635px;
+  margin-top: 659px;
 }
 
 .kenzo img {
