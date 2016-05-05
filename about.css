@@ -51,9 +51,9 @@ main {
 nav a{
   color: #000000;
   text-decoration: none;
-  font-weight: 400;
+  font-weight: 600;
   margin-left: 40px;
-  font-family: "sofia-pro",sans-serif;
+  font-family: "futura-pt", Arial, sans-serif;
   font-size: 24px;
   letter-spacing: -1px;
 }
@@ -102,8 +102,8 @@ img {
 
 h1 {
   color: #000000;
-  font-weight: 400;
-  font-family: "sofia-pro", sans-serif;
+  font-weight: 600;
+  font-family: "futura-pt", Arial, sans-serif;
   font-size: 30px;
   letter-spacing: -1px;
   line-height: 0;
