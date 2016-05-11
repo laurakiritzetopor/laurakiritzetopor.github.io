@@ -108,4 +108,5 @@ h1 {
   letter-spacing: -1px;
   line-height: 0;
   z-index: 4;
+  margin-left: -2px;
 }
