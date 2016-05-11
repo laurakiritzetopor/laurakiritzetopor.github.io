@@ -69,11 +69,11 @@ nav a.selected{
 }
 
 .parabeaute img {
-  max-width: 480px;
+  max-width: 430px;
   height: auto;
   display: inline-block;
   position: absolute;
-  margin-left: 495px;
+  margin-left: 530px;
 }
 
 .m1 img {
@@ -99,7 +99,7 @@ nav a.selected{
   height: auto;
   display: inline-block;
   position: absolute;
-  margin-left: 635px;
+  margin-left: 638px;
   margin-top: 659px;
 }
 
@@ -118,8 +118,16 @@ nav a.selected{
   display: inline-block;
   position: absolute;
   margin-top: 525px;
-  margin-left: 67px;
+  margin-left: 37px;
 }
+
+.esdc img {
+  max-width: 390px;
+  height: auto;
+  display: inline-block;
+  position: absolute;
+  margin-top: 875px;
+  margin-left: 0px;
 
 /* Type */
 h1 {
