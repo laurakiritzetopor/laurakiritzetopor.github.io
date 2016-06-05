@@ -1,0 +1,24 @@
+html {
+  position: relative;
+  min-height: 100%; 
+  margin: 0;
+}
+  
+body {
+  font: 18px/1.5 "Roboto", Helvetica, Arial, sans-serif;
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
+  color: #444444;
+}
+
+main {
+  padding: 0;
+  margin: 0 auto;
+  height: 100%;
+  max-width: 960px;
+}
+
+p {
+  margin: 0;
+} 

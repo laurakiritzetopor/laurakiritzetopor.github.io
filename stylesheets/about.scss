@@ -1,0 +1,52 @@
+// Partials
+@import "reset";
+@import "navigation";
+
+
+#content {
+  padding-top: 150px;
+}
+
+.about {
+  display: inline-block;
+  width: 450px;
+  padding-left: 40px;
+  font-size: 15px;
+  line-height: 21px;
+  color: #96989d;
+  margin-top: 30px;
+
+  h2 {
+    margin: 0 0 10px 0;
+    font-size: 26px;
+    font-weight: 600;
+    color: #000000;
+  }
+
+  a {
+    text-decoration: underline;
+    font-size: 15px;
+    color: #96989d;
+  } 
+}
+
+.me {
+  background-color: #efefef;
+  float: left;
+}
+
+img {
+  max-width: 400px;
+}
+/* Type */
+
+h1 {
+  color: #000000;
+  font-weight: 400;
+  font-family: "futura-pt", Arial, sans-serif;
+  font-size: 30px;
+  letter-spacing: -1px;
+  line-height: 0;
+  z-index: 4;
+  margin-left: -2px;
+}
