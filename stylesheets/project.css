@@ -20,39 +20,75 @@ p {
   margin: 0; }
 
 nav {
-  margin: 40px 0 0 0;
+  margin: 50px 0 0 0;
   position: fixed;
   display: block;
-  z-index: 9999; }
+  z-index: 9999;
+  max-width: 960px;
+  width: 100%; }
 
 #logo {
   display: inline-block;
   width: 300px;
   padding: 0;
-  line-height: 0; }
+  line-height: 0;
+  float: left; }
   #logo h1 {
     color: #000000;
-    font-weight: 400;
-    font-family: "futura-pt", Arial, sans-serif;
-    font-size: 30px;
-    letter-spacing: -1px;
-    margin-left: -2px; }
+    font-weight: 900;
+    font-family: "Playfair Display", Serif, Arial;
+    font-size: 28px;
+    margin-left: -2px;
+    font-variant-ligatures: common-ligatures; }
+  #logo a {
+    text-decoration: none; }
 
 #links {
-  margin: 0 0 0 289px;
-  display: inline-block; }
+  margin: 6px 0 0 0;
+  display: inline-block;
+  float: right; }
   #links a {
     color: #000000;
     text-decoration: none;
-    font-weight: 400;
+    font-weight: 500;
     margin-left: 40px;
-    font-family: "futura-pt", Arial, sans-serif;
-    font-size: 30px;
-    letter-spacing: -1px; }
+    font-family: "aktiv-grotesk", "Helvetica Neue", Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 16px;
+    opacity: 0.4;
+    display: inline-block;
+    position: relative;
+    padding: 10px 0;
+    transition: opacity .20s ease-in-out; }
+    #links a:after {
+      content: '';
+      display: block;
+      margin: auto;
+      height: 2px;
+      width: 0px;
+      background: transparent;
+      transition: width .20s ease, background-color .15s ease; }
+    #links a:hover {
+      opacity: 1;
+      transition: opacity .20s ease-in-out; }
     #links a.selected {
-      border-bottom: solid 2px #000000;
-      color: #000000; }
+      font-weight: 500;
+      opacity: 1;
+      display: inline-block;
+      position: relative;
+      padding: 10px 0;
+      transition: width .20s ease-in-out; }
+    #links a.selected:after {
+      width: 40%;
+      background: #000000; }
+    #links a.selected:hover:after {
+      width: 100%;
+      background: #000000; }
 
+@media screen and (max-width: 960px) {
+  nav {
+    padding: 0 20px;
+    width: 100%; } }
 #content {
   padding-top: 150px; }
 

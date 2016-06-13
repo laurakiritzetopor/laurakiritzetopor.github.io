@@ -3,12 +3,24 @@
 @import "navigation";
 
 #content {
-  padding-top: 150px;
+  margin-top: 130px;
   column-width: 310px;
   column-gap: 15px;
   width: 100%;
   height: auto;
   max-width: 960px;
+}
+
+#intro {
+  display: inline-block;
+  max-width: 100%;
+  font-family: "aktiv-grotesk", "Helvetica Neue", Arial, sans-serif;
+  font-size: 1em;
+  line-height: 1.6em;
+  color:#111111;
+  margin-top: 220px;
+  -webkit-font-smoothing: antialiased;
+  text-rendering: optimizeLegibility;
 }
 
 div#content figure {
@@ -21,4 +33,10 @@ div#content figure {
 div#content figure img {
   width: 100%; 
   height: auto;
+}
+
+@media screen and (max-width: 960px) {
+  #intro {
+    padding: 0 20px;
+  }
 }
