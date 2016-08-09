@@ -3,7 +3,7 @@
 @import "navigation";
 
 #content {
-  margin-top: 130px;
+  margin-top: 140px;
   column-width: 310px;
   column-gap: 15px;
   width: 100%;
@@ -13,12 +13,12 @@
 
 #intro {
   display: inline-block;
-  max-width: 100%;
+  max-width: 50%;
   font-family: "aktiv-grotesk", "Helvetica Neue", Arial, sans-serif;
-  font-size: 1em;
-  line-height: 1.6em;
+  font-size: 0.8em;
+  line-height: 1.4em;
   color:#111111;
-  margin-top: 220px;
+  margin-top: 140px;
   -webkit-font-smoothing: antialiased;
   text-rendering: optimizeLegibility;
 }

@@ -29,7 +29,8 @@ nav {
 
 #logo {
   display: inline-block;
-  width: 300px;
+  width: 280px;
+  content: "";
   padding: 0;
   line-height: 0;
   float: left; }
@@ -42,6 +43,8 @@ nav {
     font-variant-ligatures: common-ligatures; }
   #logo a {
     text-decoration: none; }
+  #logo img {
+    width: 300px; }
 
 #links {
   margin: 6px 0 0 0;
@@ -108,7 +111,7 @@ nav {
     font-family: "aktiv-grotesk", "Helvetica Neue", Arial, sans-serif;
     color: #B3B3B3; }
   .about a {
-    border-bottom: 2px solid #F3F0D8;
+    border-bottom: 2px solid #f4f4f4;
     text-decoration: none;
     color: #222222; }
 

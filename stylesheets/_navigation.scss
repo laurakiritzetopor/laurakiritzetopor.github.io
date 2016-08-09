@@ -9,7 +9,8 @@ nav {
 
 #logo {
   display: inline-block;
-  width: 300px;
+  width: 280px;
+  content: "";
   padding: 0;
   line-height: 0;
   float: left;
@@ -25,6 +26,10 @@ nav {
 
   a{
     text-decoration: none;
+  }
+
+  img{
+    width: 300px;
   }
 }
 
