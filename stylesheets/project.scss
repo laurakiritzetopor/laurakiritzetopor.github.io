@@ -3,7 +3,13 @@
 @import "navigation";
 
 #content {
-  padding-top: 150px;
+  padding-top: 220px;
+
+  img {
+    margin: 0 0 20px 160px;
+    max-width: 800px;
+    height: auto;
+  }
 }
 
 .description{
@@ -39,12 +45,6 @@
     font-weight: bold;
     color: #000000;
   }
-}
-
-img {
-  margin: 0 0 20px 160px;
-  max-width: 800px;
-  height: auto;
 }
 
 
